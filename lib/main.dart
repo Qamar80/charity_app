@@ -1,4 +1,10 @@
 <<<<<<< HEAD
+
+
+
+Qamar Abbas
+
+
 import 'package:charity_app/views/authentication/login_screen.dart';
 =======
 >>>>>>> b390ae1 (Initial commit)
