@@ -1,3 +1,4 @@
+import 'package:charity_app/authentication/signup_screen.dart';
 import 'package:flutter/material.dart';
 
 
@@ -138,10 +139,10 @@ class LoginScreen extends StatelessWidget {
                     side: const BorderSide(color: Colors.black),
                   ),
                   onPressed: () {
-                 /*   Navigator.push(
+                    Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => const SignUpPage()),
-                    );*/
+                      MaterialPageRoute(builder: (context) => const SignupScreen()),
+                    );
 
                   },
                   child: const Text(
