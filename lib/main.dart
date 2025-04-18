@@ -1,4 +1,4 @@
-import 'package:charity_app/authentication/login_screen.dart';
+import 'package:charity_app/views/authentication/login_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {

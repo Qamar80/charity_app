@@ -1,5 +1,6 @@
-import 'package:charity_app/authentication/signup_screen.dart';
+import 'package:charity_app/views/authentication/signup_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:charity_app/consts/colors.dart';
 
 
 class LoginScreen extends StatelessWidget {
@@ -26,7 +27,7 @@ class LoginScreen extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 40,
                     fontWeight: FontWeight.bold,
-                    color: Colors.amber[700],
+                    color: yellowColor,
                   ),
                 ),
 
@@ -107,7 +108,7 @@ class LoginScreen extends StatelessWidget {
                           // Login Button
                           ElevatedButton(
                             style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.amber[700],
+                              backgroundColor: yellowColor,
                               padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 80),
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(10),
